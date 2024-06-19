@@ -1,0 +1,532 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    height: 90px;
+    padding-left: 120px;
+}
+
+h2{
+    position: relative;
+    left: -220px;
+    color: hsla(152, 72%, 31%, 1);
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsla(241, 39%, 41%, 1);
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+/* container1 */
+.container {
+    padding: 20px;
+    width: 100%;
+}
+
+.container h1{
+    position: relative;
+    background-color: #168753;
+    color: white;
+    padding: 15px;
+    padding-left: 10%;
+    top: -60px;
+    left: -20px;
+    width: 100%;
+}
+
+.polygon{
+    position: absolute;
+    top: 132px;
+    height: 40px;
+    left: 7.7%;
+}
+
+/* h2 title */
+.tesda {
+    color: #008000;
+    font-size: 2.5em;
+    text-align: center;
+    left: 20px;
+    position: relative;
+    top: -60px;
+}
+
+.tesda1{
+    position: relative;
+    top: 60px;
+    font-size: 1em;
+    color:black;
+    font-weight: lighter;
+    left: 195px;
+}
+
+.tesda2{
+    color: #008000;
+    font-size: 2.8em;
+    text-align: left;
+    left: 190px;
+    position: relative;
+    top: -20px;
+}
+
+/*end */
+
+thead{
+    background-color: #cacaca;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10px;
+    table-layout:fixed;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    gap: 140px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none; /* Remove outline on focus */
+    font-size: 1em;
+}
+
+input {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px; /* Optional: Add padding for better appearance */
+    text-align: center;
+    font-size: 1em;
+}
+
+/* button */
+
+
+
+.btn{
+    position: relative;
+    top: -10px;
+    left: 58px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(241, 39%, 41%, 1);
+    color: white;
+    font-size: .9em;
+    font-weight: bolder;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn1{
+    position: relative;
+    top: -35px;
+    left: 190px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(241, 39%, 41%, 1);
+    color: white;
+    font-size: .9em;
+    font-weight: bolder;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button .submit{
+    background-color: #168753;
+    width: 190px;
+    height: 47px;
+    font-size: 1.2em;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    left: 80%;
+    top: -50px;
+}
+
+ .edit{
+    position: relative;
+    top: -70px;
+    left: 83.5%;
+    background-color:  #dda200;
+    border: none;
+    width: 130px;
+    height: 45px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* SCHEDULE */
+.schedule {
+    margin-bottom: 20px;
+}
+
+.schedule h3{
+    position: relative;
+    font-size: 2.6em;
+    font-weight: 900;
+    top: -20px;
+    left: 190px;
+}
+
+.schedule .title{
+    color: #168753;
+    font-weight: bolder;
+    font-size: 1.8em;
+    position: relative;
+    padding-right: 200px;
+    left: 193px;
+    top: -30px;
+}
+
+.schedule strong{
+    padding-right: 200px;
+}
+
+.schedule .edit{
+    position: relative;
+    top: -20px;
+    left: 83%;
+    background-color:  #dda200;
+    border: none;
+    width: 130px;
+    height: 45px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+}
+
+/* line */
+.line{
+    position: relative;
+    border: 2px solid #168753;
+    width: 80%;
+    left: -1px;
+    top: -205px;
+}
+
+.line1{
+    position: relative;
+    border: 2px solid #168753;
+    width: 80%;
+    left: 20px;
+    top: -600px;
+}
+
+.address{
+    position: relative;
+    top: -45px;
+    text-align: justify;
+    left: 33.7%;
+    font-size: .8em;
+}
+
+/* END */
+
+.tesda3{
+    position: relative;
+    top: 190px;
+    left: 190px;
+    color: black;
+    font-size: 1.5em;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.details{
+    position: relative;
+    top: 230px;
+    left: 190px;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+/* contact deatils */
+
+.contact-details strong{
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    top: 260px;
+    left: 190px;
+}
+
+.contact-details .contact{
+    position: relative;
+    top: 260px;
+    line-height: 2.5;
+    font-size: 1.2em;
+    left: 190px;
+}
+
+.reach{
+    position: relative;
+    top: 350px;
+    font-size: 1.2em;
+    left: 190px;
+}
+
+.contact-details .submit{
+    background-color: #168753;
+    width: 190px;
+    height: 47px;
+    font-size: 1.2em;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    left: 80%;
+    top: -460px;
+}
+
+/* add row */
+
+.row {
+    text-align: center; /* Center the button */
+    margin-top: 10px; /* Add some margin for spacing */
+}
+
+.add-schedule {
+    display: block;
+    width: 12%;
+    height: 45px; /* Make the button take the full width */
+    background-color: hsla(241, 39%, 41%, 1); /* Button background color */
+    color: white;
+    font-size: .9em;
+    position: relative;
+    border: none;  
+    border-radius: 5px;
+    top: -980px;
+    font-weight: bolder;
+    left: 190px;
+}
+
+.add-schedule:hover {
+    background-color: hsla(241, 39%, 41%, 1) /* Darker background on hover */
+}
+
+
+/* footer */
+
+.footer{
+    position: relative;
+    background-color: hsla(168, 100%, 25%, 1);
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    top: 350px;
+}
+
+.republic{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 20%;
+}
+.content{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 20%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.ph{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -75px;
+    left: 45%;
+}
+.learn{
+    color: white;
+    position: absolute;
+    top: 44px;
+    left: 45%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.gov1{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 100px;
+}
+.gov2{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 120px;
+}
+.gov3{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 140px;
+}
+.goverment{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.pres{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 45px;
+}
+.vice{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 65px;
+}
+.senate{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 85px;
+}
+.house{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 105px;
+}
+.supreme{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 125px;
+}
+.appeals{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 145px;
+}
+.sandigan{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 165px;
+}
+.negros{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 185px;
+}
+.visit{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 85%;
+    font-weight: bold;
+}
+.paglaum{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 35px;
+}
+.phone{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 85px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    font-size: 55px;
+    left: 160px;
+}
+.pic{
+    height: 90%;
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}
